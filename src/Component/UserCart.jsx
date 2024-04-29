@@ -26,7 +26,7 @@ const Usercart = () => {
     let param=useParams();
 
     useEffect(() => {
-        axios.get(`https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/${param.id}`)
+        axios.get(`https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Products/${param.id}`)
             .then((res) => {
                 console.log(res.data);
                 // setdata(res.data);
