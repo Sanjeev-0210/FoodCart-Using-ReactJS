@@ -30,3 +30,20 @@
     border-radius: 3px;
     padding: 7px;
 }
+@media (max-width:600px) {
+    #adminsignup{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        width: max-content;
+        /* font-size: 20px; */
+        position: absolute;
+        top:50vh;
+        left:2vh;
+        line-height: 2rem;
+        /* display: flex; */
+        background-color: rgb(219, 245, 236);
+        box-shadow: 0 0 20px black;
+        align-items: center;
+    }
+}
