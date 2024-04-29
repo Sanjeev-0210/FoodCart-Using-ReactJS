@@ -1,0 +1,74 @@
+.adminNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    background-color: rgb(217, 233, 223);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.adminNavbar h1{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.adminNavbar span{
+    color: rgb(164, 164, 31);
+    font-size: 35px;
+    font-family: cursive;
+}
+.adminNavbar a{
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: light;
+    text-decoration: none;
+    color: black;
+}
+.adminNavbar a:hover{
+    transition: 1s;
+    color: rgb(224, 30, 30);
+    text-shadow: 0 0 20px rgb(229, 240, 34);
+}
+@media (max-width:1200px),(max-width:800px) {
+    .adminNavbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 60px;
+        background-color: rgb(217, 233, 223);
+        height: 80px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+    .adminNavbar a{
+        margin: 0 20px;
+        font-size: 20px;
+        font-weight: light;
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+@media (max-width:700px){
+    .adminNavbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        background-color: rgb(217, 233, 223);
+        height: 80px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+    .adminNavbar a{
+        margin: 0 20px;
+        font-size: 20px;
+        font-weight: light;
+        text-decoration: none;
+        color: black;
+    }
+}

@@ -1,0 +1,48 @@
+.usercart{
+    height: 100%;
+    width: max-content;
+    border: 0;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    border-left: 1px solid gainsboro;
+}
+.items{
+    margin: 20px;
+}
+.dish{
+    display: flex;
+    /* align-items: start; */
+    
+}
+.dish img{
+    height: 50px;
+    width: 75px;
+    
+}
+.dishname span{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+    transform: translateY(-9px);
+    border-bottom: 2px solid black;
+}
+.icon{
+    height: 20px;
+    color: rgb(87, 129, 25);
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.items button{
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 3px 8px;
+    background-color: white;
+    color: red; 
+    
+}
+.items button:hover{
+    background-color: red;
+    color: white; 
+    border: 1px solid red;
+}

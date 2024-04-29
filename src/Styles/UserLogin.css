@@ -1,0 +1,86 @@
+.userlogin img{
+    height: 100vh;
+   width: 100%;
+   
+}
+#Userlogin{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: max-content;
+    /* font-size: 20px; */
+    position: absolute;
+    top:30vh;
+    left:60vh;
+    line-height: 2rem;
+    /* display: flex; */
+    background-color: rgb(219, 245, 236);
+    box-shadow: 0 0 20px black;
+    align-items: center;
+}
+#Userlogin h1{
+    color: chocolate;
+    text-shadow: 0 0 10px rgb(255, 255, 0);
+}
+#Userlogin:hover{
+    transform: scale(1.02);
+    transition: 1s;
+    background-color: rgb(246, 232, 212);
+}
+#Userlogin input{
+    height: 20px;
+    font-size: 15px;
+    border: 1 solid black;
+}
+#Userlogin button{
+    background-color: rgb(237, 17, 9);
+    color: white;
+    border: 0;
+    margin-top: 2px;
+    border-radius: 3px;
+    padding: 1px 18px;
+}
+@media (max-width:1200px),(max-width:800px) {
+    #Userlogin{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        width: max-content;
+        /* font-size: 20px; */
+        position:absolute;
+        top:30vh;
+        left:30vh;
+        line-height: 2rem;
+        /* display: flex; */
+        background-color: rgb(219, 245, 236);
+        box-shadow: 0 0 20px black;
+        align-items: center;
+    }
+    .userlogin img{
+        height: 100vh;
+       width: 100%;
+       
+   }
+}
+@media (max-width:700px) {
+    .userlogin img{
+        height: 100vh;
+       width: 100%;
+       
+   }
+    #Userlogin{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        width: max-content;
+        /* font-size: 20px; */
+        position: absolute;
+        top:30vh;
+        left:10vh;
+        line-height: 2rem;
+        /* display: flex; */
+        background-color: rgb(219, 245, 236);
+        box-shadow: 0 0 20px black;
+        align-items: center;
+    }
+}

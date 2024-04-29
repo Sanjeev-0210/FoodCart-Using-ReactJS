@@ -1,0 +1,130 @@
+{
+  "Manager": [
+    {
+      "id": "afa3",
+      "name": "Sanjeev",
+      "email": "sanjeev@gmail.com",
+      "password": "sanjeev@c",
+      "phone": "9874563210",
+      "profile": "https://th.bing.com/th/id/R.2abdb67f6d5936e08dfef30f59ad9590?rik=gQswd3Gbdavy8w&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f22500000%2fItachi-itachi-uchiha-22583325-1600-1200.jpg&ehk=phMsA4vbf7IvaYnmr4SYu6l5ct9s%2faJLY6gNpGDfqrg%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "93c0",
+      "name": "Admin1",
+      "email": "admin1@gmail.com",
+      "password": "admin@1",
+      "phone": "7896541302",
+      "profile": "https://th.bing.com/th/id/OIP.E5xKNZamofF0yWPEITYhIAHaHa?rs=1&pid=ImgDetMain"
+    }
+  ],
+  "User": [
+    {
+      "id": "ff7f",
+      "name": "sanjeev",
+      "email": "sanjeevc@gmail.com",
+      "phone": "7418529630",
+      "password": "Sanjeev@c"
+    }
+  ],
+  "Products": [
+    {
+      "category": "Non - Veg",
+      "restaurant": "BBQ",
+      "name": "Chicken Biriyani",
+      "price": "280",
+      "quantity": "15",
+      "description": "Barbeque Nation Chicken Biriyani",
+      "url": "https://kfoods.com/images1/newrecipeicon/bbq-chicken-biryani_4035.jpg",
+      "ratings": "5",
+      "id": "6e22"
+    },
+    {
+      "id": "d460",
+      "category": "Sea Foods",
+      "restaurant": "Hotel Chettinad",
+      "name": "Fish-Fry",
+      "price": "80",
+      "quantity": "15",
+      "description": "South Indian Food",
+      "url": "https://1.bp.blogspot.com/-dmr7TvaMJ7c/WRyLh1RZjlI/AAAAAAAAIF4/uPHo3WFtctE8ZS34-s0mkRyNRkU-2-SzgCLcB/s1600/0000000000000000000000A%2B%25281%2529.jpg",
+      "ratings": "4"
+    },
+    {
+      "id": "abaf",
+      "category": "Veg",
+      "restaurant": "Adyar Anandbavan",
+      "name": "Masala Dosa",
+      "price": "45",
+      "quantity": "15",
+      "description": "South Indian Masala Dosa ",
+      "url": "https://media.cntraveller.in/wp-content/uploads/2020/05/dosa-recipes-1366x768.jpg",
+      "ratings": "5"
+    },
+    {
+      "category": "Non-Veg",
+      "restaurant": "Once Upon a Chef",
+      "name": "Grilled Chicken ",
+      "price": "360",
+      "quantity": "12",
+      "description": "Grilled Chicken Full ",
+      "url": "https://www.simplyrecipes.com/thmb/7KwExJ0ZbVEmlxBaMsgmrBTi9M4=/4667x3111/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-BBQ-Chicken-LEAD-10-03fd9892eaae4ce1a8a3f4c949657cfd.jpg",
+      "ratings": "4",
+      "id": "d461"
+    },
+    {
+      "id": "abaf",
+      "category": "Veg",
+      "restaurant": "Mom's Kitchen",
+      "name": "Full Meals",
+      "price": "70",
+      "quantity": "15",
+      "description": "South Indian Food ",
+      "url": "https://th.bing.com/th/id/OIP.VKMkZooxYIWQ8I4At_C6UQHaFP?rs=1&pid=ImgDetMain",
+      "ratings": "4"
+    },
+    {
+      "category": "Desserts",
+      "restaurant": "BBC Foods",
+      "name": "Chocolate Brownie",
+      "price": "115",
+      "quantity": "10",
+      "description": "Delicious Hot chocolate Ice Brownie",
+      "url": "https://i1.wp.com/thebrownidentity.com/wp-content/uploads/2020/07/The-daily-meal.jpg?w=2340&ssl=1",
+      "ratings": "4",
+      "id": "4bd7"
+    },
+    {
+      "id": "6a0a",
+      "category": "Desserts",
+      "restaurant": "Ibaco",
+      "name": "Red Velvet Cake",
+      "price": "800",
+      "quantity": "10",
+      "description": "Delicious Dessert Ice cake 1kg",
+      "url": "https://th.bing.com/th/id/OPAC.BHy2Mrpmcmsr3Q474C474?w=200&h=220&rs=1&o=5&dpr=1.3&pid=21.1",
+      "ratings": "4"
+    },
+    {
+      "id": "00fb",
+      "category": "Chinese",
+      "restaurant": "Swathi's Recipes",
+      "name": "Chicken Noodels",
+      "price": "80",
+      "quantity": "10",
+      "description": "Chinese restaurant chicken Noodles",
+      "url": "https://theflavoursofkitchen.com/wp-content/uploads/2016/08/oriental-chicken-noodles.1024x1024-1.jpg",
+      "ratings": "4"
+    },
+    {
+      "id": "1d47",
+      "category": "Chinese",
+      "restaurant": "Swathi's Recipes",
+      "name": "Chicken Momo's",
+      "price": "125",
+      "quantity": "10",
+      "description": "Chinese restaurant chicken Momo's",
+      "url": "https://i.pinimg.com/originals/e0/43/51/e04351c2d3eb1d050413a5e40710925d.jpg",
+      "ratings": "4"
+    }
+  ]
+}

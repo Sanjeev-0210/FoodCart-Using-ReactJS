@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import AdminLogin from './Component/AdminLogin';
+import AdminSignup from './Component/AdminSignup';
+import LandingPage from './Component/LandingPage';
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import UserLogin from './Component/UserLogin';
+import AdminHomePage from './Component/AdminHomePage';
+import Errorpage from './Component/ErrorPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import UserSignup from './Component/UserSignup';
+import UserHomePage from './Component/UserHomePage';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      
+      <BrowserRouter>
+      <Routes>
+      <Route path='/' element={<LandingPage/>}/>
+      <Route path='/*' element={<Errorpage/>}/>
+      <Route path='/admin' element={<AdminLogin/>}/>
+      <Route path='/adminsignup' element={<AdminSignup/>}/>
+      <Route path='/user' element={<UserLogin/>}/>
+      <Route path='/usersignup' element={<UserSignup/>}/>
+      <Route path='/adminhomepage/*' element={<AdminHomePage/>}/>
+      <Route path='/userhomepage/*' element={<UserHomePage/>}/>
+      </Routes>
+      </BrowserRouter>
+     
+  
+     </div>
+   );
 }
 
 export default App;

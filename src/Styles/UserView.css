@@ -1,0 +1,97 @@
+
+.userview{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-around;
+}
+.viewitem img{
+    height: 180px;
+    width: 280px;
+}
+.viewitem{
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin: 20px 0;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.viewitem:hover{
+    transform: scale(1.01);
+    transition: 1s;
+}
+.viewitem span{
+    display: flex;
+    justify-content: space-between;
+}
+.viewitem #btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.viewitem #star{
+    height: 20px;
+}
+.viewitem button{
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 3px 8px;
+    background-color: white;
+    color: red; 
+    
+}
+.viewitem button:hover{
+    background-color: red;
+    color: white; 
+    border: 1px solid red;
+}
+.viewitem button:disabled{
+    background-color: rgb(168, 166, 166);
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+@media (max-width:1200px) {
+    .userview{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: space-around;
+    }
+  
+}
+@media (max-width:900px) {
+    .userview{
+        display: grid;
+        grid-template-columns: 220px 220px 220px;
+        justify-content: space-around;
+    }
+    .viewitem img{
+        height: 150px;
+        width: 240px;
+    }
+    .viewitem span{
+        display: block;
+        
+    }
+    .viewitem #star{
+        height: 15px;
+    }
+}
+@media (max-width:700px) {
+    .userview{
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        justify-content: space-around;
+    }
+    .viewitem img{
+        height: 140px;
+        width: 220px;
+    }
+    .viewitem{
+        border: 2px solid black;
+        margin: 15px 0;
+        padding: 7px;
+        font-size: 14px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
