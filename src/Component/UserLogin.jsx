@@ -12,7 +12,7 @@ const  UserLogin = () => {
     let navigate=useNavigate();
 
    useEffect(()=>{
-    axios.get("http://localhost:1000/User")
+    axios.get("https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/User")
     .then((res)=>{
         console.log(res.data);
         setuser(res.data)

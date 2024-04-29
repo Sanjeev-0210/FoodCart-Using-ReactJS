@@ -11,7 +11,7 @@ const UserSignup = () => {
 
     let fetchdata=(e)=>{
         e.preventDefault()
-        axios.post("http://localhost:1000/User",data)
+        axios.post("https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/User",data)
         .then((res)=>{
             alert("User has been Added Successfully!!!")
         })

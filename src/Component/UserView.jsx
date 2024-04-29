@@ -9,7 +9,7 @@ const UserView = () => {
     let[data,setdata]=useState([]);
     let navigate=useNavigate();
     useEffect(()=>{
-        axios.get("http://localhost:1000/Products")
+        axios.get("https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Products")
     .then((res)=>{
         console.log(res.data);
         setdata(res.data);
@@ -17,7 +17,7 @@ const UserView = () => {
     },[])
 
     let addcart=(id)=>{
-        axios.get(`http://localhost:1000/Products/${id}`)
+        axios.get(`https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Products/${id}`)
         .then((res)=>{
             alert("Dish Added to Cart!!!")
             navigate(`/userhomepage/usercart/${id}`)

@@ -10,7 +10,7 @@ const AdminView = () => {
     let [force,setforce]=useState(true);
 
     useEffect(() => {
-        axios.get('http://localhost:1000/Products')
+        axios.get('https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Products')
             .then((res) => {
                 console.log(res.data);
                 setdata(res.data);
@@ -21,7 +21,7 @@ const AdminView = () => {
     }, [force])   //-------------->Data Dependencies / Force Rendering
 
     let removeDish=(id,name)=>{
-            axios.delete(`http://localhost:1000/Products/${id}`)
+            axios.delete(`https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/${id}`)
             .then((res)=>{
                 alert(name+" has been Removed Successfully!!!")
                 setforce(false)

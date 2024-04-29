@@ -12,7 +12,7 @@ const AdminLogin = () => {
     let navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://localhost:1000/Manager')
+        axios.get('https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Manager')
             .then((res) => {
                 console.log(res.data);
                 setadmin(res.data);
@@ -38,7 +38,7 @@ const AdminLogin = () => {
     }
 
     // let login=async()=>{
-    //     let res=await fetch('http://localhost:1000/Manager');
+    //     let res=await fetch('https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Manager');
     //     let data= await res.json()
     //     let flag=false;
     //     data.map((x)=>{

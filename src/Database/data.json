@@ -24,6 +24,13 @@
       "email": "sanjeevc@gmail.com",
       "phone": "7418529630",
       "password": "Sanjeev@c"
+    },
+    {
+      "id": "8da6",
+      "name": "user02",
+      "email": "user02@gmail.com",
+      "phone": "9500366015",
+      "password": "user@02"
     }
   ],
   "Products": [

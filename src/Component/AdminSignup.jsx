@@ -13,7 +13,7 @@ const AdminSignup=()=>{
     let addAdmin=(e)=>{
         e.preventDefault()
 
-        axios.post('http://localhost:1000/Manager',admins)
+        axios.post('https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Manager',admins)
         .then((res)=>{
                  console.log(res);
                  alert("Admin added successfully!!!")
@@ -21,7 +21,7 @@ const AdminSignup=()=>{
              .catch((err)=>{
                  alert("Invalid Data!!!")
              })
-        // fetch("http://localhost:1000/Manager",{
+        // fetch("https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Manager",{
         //     method: "POST",
         //     headers:{"Content-Type": "application/json"},
         //     body: JSON.stringify(admins)

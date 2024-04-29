@@ -16,7 +16,7 @@ const EditProduct = () => {
     let param = useParams()
     // console.log(param);
     useEffect(() => {
-        axios.get(`http://localhost:1000/Products/${param.id}`)
+        axios.get(`https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/${param.id}`)
             .then((res) => {
                 console.log(res.data);
                 setcategory(res.data.category)
@@ -38,7 +38,7 @@ const EditProduct = () => {
 
     let editdish=(e)=>{
         e.preventDefault()
-        axios.put(`http://localhost:1000/Products/${param.id}`,data)
+        axios.put(`https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/${param.id}`,data)
         .then((res)=>{
             alert("Dish Updated Successfully!!!")
         })
