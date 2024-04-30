@@ -67,6 +67,7 @@ const AdminLogin = () => {
                     <button onClick={login}>Login</button>
                     <p>Are you new to the page? <Link to="/adminsignup">SignUp Now</Link></p>
                     {/* <p>Are you new to the page? <br /> <a href="./AdminSignUp">SignUp Now</a></p> */}
+                    <p><b>*Note:</b> Use <u>Admin1</u> & <u>admin@1</u> for login!!!</p>
                 </form>
             </div>
         </div>
