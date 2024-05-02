@@ -79,7 +79,7 @@
 @media (max-width:700px) {
     .userview{
         display: grid;
-        grid-template-columns: 210px 210px ;
+        grid-template-columns: 200px 200px ;
         justify-content: space-around;
     }
     .viewitem img{
@@ -102,8 +102,5 @@
     }
     .viewitem span{
         display: flex;
-    }
-    .viewitem #rating{
-        
     }
 }
