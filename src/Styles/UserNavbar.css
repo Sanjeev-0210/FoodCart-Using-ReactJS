@@ -31,6 +31,7 @@
     color: rgb(224, 30, 30);
     text-shadow: 0 0 20px rgb(229, 240, 34);
 }
+
 @media (max-width:1200px),(max-width:800px) {
     .userNavbar{
         display: flex;

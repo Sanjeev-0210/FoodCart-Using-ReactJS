@@ -8,6 +8,7 @@ import Errorpage from './Component/ErrorPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UserSignup from './Component/UserSignup';
 import UserHomePage from './Component/UserHomePage';
+import UserView from './Component/UserView';
 
 
 
@@ -17,7 +18,8 @@ function App() {
       
       <BrowserRouter>
       <Routes>
-      <Route path='/' element={<LandingPage/>}/>
+        <Route path='/' element={<UserHomePage/>}/>
+      <Route path='/landingpage' element={<LandingPage/>}/>
       <Route path='/*' element={<Errorpage/>}/>
       <Route path='/admin' element={<AdminLogin/>}/>
       <Route path='/adminsignup' element={<AdminSignup/>}/>

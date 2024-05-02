@@ -79,19 +79,31 @@
 @media (max-width:700px) {
     .userview{
         display: grid;
-        grid-template-columns: 200px 200px ;
+        grid-template-columns: 210px 210px ;
         justify-content: space-around;
     }
     .viewitem img{
-        height: 140px;
-        width: 220px;
+        height: 110px;
+        width: 190px;
     }
     .viewitem{
         border: 2px solid black;
         margin: 15px 0;
         padding: 7px;
-        font-size: 14px;
+        font-size: 12px;
         overflow: hidden;
         cursor: pointer;
+    }
+    .viewitem h2{
+        font-size: 18px;
+    }
+    .viewitem h5{
+        font-size: small;
+    }
+    .viewitem span{
+        display: flex;
+    }
+    .viewitem #rating{
+        
     }
 }

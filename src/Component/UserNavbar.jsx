@@ -14,8 +14,10 @@ const UserNavbar = () => {
 
             <div className="options">
                 <Link to="/userhomepage/userview"><FavoriteBorderIcon/></Link>
+                
                 <Link to="/userhomepage/usercart"><ShoppingCartIcon/></Link>
-                <Link to=""><MenuIcon/></Link>
+                <Link to="/landingpage"><MenuIcon id="menu"/></Link>
+
                 
             </div>
         </div>

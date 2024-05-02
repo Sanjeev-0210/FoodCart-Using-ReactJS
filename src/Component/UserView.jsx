@@ -34,7 +34,7 @@ const UserView = () => {
                     <img src={x.url} alt="" />
                         <h2>{x.name}</h2>
                         <h5>{x.restaurant}</h5>
-                        <span><p>Price: <strike>₹{x.price}</strike> ₹{x.price-x.price*20/100}</p> <p>Quantity: {x.quantity} </p> <p> {x.ratings} <StarOutlinedIcon id="star" /></p>
+                        <span><p>Price: <strike>₹{x.price}</strike> ₹{x.price-x.price*20/100}</p> <p>Quantity:{x.quantity} </p> <p id="rating">  {x.ratings}<StarOutlinedIcon id="star" /></p>
                         </span>
                         <span id="btn">
                         <button disabled={x.quantity==0?true:false} onClick={()=>(addcart(x.id))}>Add to Cart <ShoppingCartIcon/></button></span>
