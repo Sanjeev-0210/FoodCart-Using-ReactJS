@@ -60,13 +60,14 @@
         padding: 0 20px;
         background-color: rgb(217, 233, 223);
         height: 80px;
+        
         position: sticky;
         top: 0;
         z-index: 5;
     }
     .adminNavbar a{
         margin: 0 20px;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: light;
         text-decoration: none;
         color: black;

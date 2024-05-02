@@ -55,7 +55,7 @@ const  UserLogin = () => {
                 <br />
                 <button onClick={login}>Login</button>
                 <p>Are you new to our page? <Link to="/usersignup"> Register here </Link></p>
-                <p><b>*Note:</b> Use <u>user02@gmail.com</u> & <u>user@02</u> for login!!!</p>
+                <p><b>*Note:</b> Use <u>user02@gmail.com</u> <br />& <u>user@02</u> for login!!!</p>
             </form>
         </div>
         </div>
