@@ -4,7 +4,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import '../Styles/UserCart.css'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 const Usercart = () => {
     // let [data, setdata] = useState([]);
     let [count, setcount] = useState(0);
@@ -69,7 +69,7 @@ const Usercart = () => {
             <div className="empty">
             <p style={{"margin":"0"}}>OOPS!</p>
             <h1>Your Cart is Empty!!!</h1>
-            <p style={{"margin":"0"}}>Please add an Item to proceed  <br /> CHECK OUT</p>
+            <p style={{"margin":"0"}}><Link to="/userview">Please add an Item to proceed</Link>  <br /> CHECK OUT</p>
             </div>
             
         )}
