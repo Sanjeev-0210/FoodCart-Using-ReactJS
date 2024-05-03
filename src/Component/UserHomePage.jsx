@@ -11,6 +11,7 @@ const UserHomePage = () => {
             <Routes>
             <Route path="/" element={<UserView/>}/>
             <Route path="/userview" element={<UserView/>}/>
+            {/* <Route path="/usercart" element={<Usercart/>}/> */}
             <Route path="/usercart/:id" element={<Usercart/>}/>
             </Routes>
             
