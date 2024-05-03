@@ -69,7 +69,7 @@ const Usercart = () => {
             <div className="empty">
             <p style={{"margin":"0"}}>OOPS!</p>
             <h1>Your Cart is Empty!!!</h1>
-            <p style={{"margin":"0"}}><Link to="/userview">Please add an Item to proceed</Link>  <br /> CHECK OUT</p>
+            <p style={{"margin":"0"}}><Link to="/userhomepage/userview">Please add an Item to proceed</Link>  <br /> CHECK OUT</p>
             </div>
             
         )}
