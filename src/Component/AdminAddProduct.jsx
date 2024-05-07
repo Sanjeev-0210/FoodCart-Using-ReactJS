@@ -15,7 +15,7 @@ const AdminAddProduct = () => {
 
     let addDish=(e)=>{
         e.preventDefault()
-        axios.post('https://my-json-server.typicode.com/Sanjeev-0210/DB-FoodCart/Products',data)
+        axios.post('http://localhost:1000/Products',data)
         .then((res)=>{
             console.log(res);
             alert("Dish Added Successfully!!!")
